@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
 
          <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
@@ -30,16 +30,16 @@
                 </div>
             </div>
         </header>
-
+        
         <nav class="navbar fw-bold navbar-font navbar-expand-sm navbar-dark sticky-top">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bayLeafNavbar"aria-controls="bayLeafNavbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="bayLeafNavbar">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    <ul class="nav navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#aboutUs">About Us</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Menu
@@ -68,26 +68,36 @@
             </div>
         </div>
 
-        <div class="container-fluid">
+        <div id = "aboutUs" class="container-fluid">
             <div class="row row-content align-items-center">
-                <div class="col-7">
-                    <p class="display-5">Indian food, for many, is a very confusing mix of spices, but it is this magical fusion and its intoxicating aroma that makes the food so unique. The distinct complex flavors in many Indian dishes makes it one of the most sensational cuisines in the world.  Every region in the country has its own specific and identifiable food. In fact, the taste of food changes every 100 kilometers across the vast country.</p>
-                </div>
-                <div class="col-5">
-                    <img class="img-fluid responsive" src="img/chickenbiriyani.jpg" alt="Indian Spices"/>
+                <div class="col">
+                    <h3 class="display-2">About Us</h3>
                 </div>
             </div>
         </div>
+
+
+        <div class="container-fluid">
+            <div class="row row-content">
+                <div class="col-7 align-text-top">
+                    <p class="display-5">Indian food, for many, is a very confusing mix of spices, but it is this magical fusion and its intoxicating aroma that makes the food so unique. The distinct complex flavors in many Indian dishes makes it one of the most sensational cuisines in the world.  Every region in the country has its own specific and identifiable food. In fact, the taste of food changes every 100 kilometers across the vast country.</p>
+                </div>
+                <div class="col-5">
+                    <img class="img-fluid responsive" src="img/chickentikka.jpg" alt="Indian Spices"/>
+                </div>
+            </div>
+        </div>
+
 
         <footer class="site-footer">
             <div class="container">
                 <div class="row row-content align-items-center text-white">
                     <div class="col-6 col-sm-4">
                         <ul class="list-unstyled">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a class="text-warning" href="#">Home</a></li>
+                            <li><a class="text-warning" href="#aboutUs">About Us</a></li>
+                            <li><a class="text-warning" href="#">Menu</a></li>
+                            <li><a class="text-warning" href="#">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="col-6 col-sm-4">
@@ -96,7 +106,7 @@
                             U.S.A.<br/>
                             <br/>
                         <h6>Email us at
-                            <a href="mailto:bayleaf@gmail.com">bayleaf@gmail.com</a>
+                            <a class="text-warning" href="mailto:bayleaf@gmail.com">bayleaf@gmail.com</a>
                         </h6>
                         <h6>Call us on 918 999 9999</h6>
                             <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
@@ -111,18 +121,17 @@
                             Closed on Tuesday
                         </h6>
                     </div>
-                   
-
-            
-        </footer>
-
-      
+                </div> 
+            </div>
+        </footer>  
     </body>
 
 
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    
+   
 
 </html>
